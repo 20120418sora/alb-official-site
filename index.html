@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALB｜アローリーグ野球</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f2f4f7;
+  color: #172235;
+  font-family: Arial, "Noto Sans JP", sans-serif;
+}
+header {
+  background: #10233f;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+header .en {
+  letter-spacing: 5px;
+  font-size: 13px;
+  color: #b9c9df;
+}
+header h1 {
+  font-size: 42px;
+  margin: 12px 0 5px;
+  letter-spacing: 3px;
+}
+header p { margin: 8px 0 0; color: #d5deeb; }
+nav {
+  background: #203b60;
+  padding: 13px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+}
+main {
+  max-width: 1050px;
+  margin: auto;
+  padding: 30px 18px;
+}
+.section-title {
+  border-left: 5px solid #d4a83e;
+  padding-left: 12px;
+  margin: 35px 0 20px;
+}
+.intro {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  line-height: 1.9;
+}
+.teams {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 17px;
+}
+.team {
+  background: white;
+  border-radius: 10px;
+  padding: 22px;
+  border-top: 6px solid var(--team-color);
+  box-shadow: 0 3px 12px #17223512;
+}
+.team h3 { margin: 8px 0; font-size: 21px; }
+.team .abbr {
+  font-size: 13px;
+  color: var(--team-color);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.team p { color: #586477; line-height: 1.7; font-size: 14px; }
+.info {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  line-height: 1.9;
+}
+footer {
+  background: #10233f;
+  color: #d5deeb;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="en">ARROW LEAGUE BASEBALL</div>
+  <h1>ALB</h1>
+  <p>アローリーグ野球</p>
+  <p>兵庫から、新しい野球の舞台へ。</p>
+</header>
+
+<nav>
+  <a href="#about">リーグ概要</a>
+  <a href="#teams">球団紹介</a>
+  <a href="#information">リーグ情報</a>
+</nav>
+
+<main>
+  <section id="about">
+    <h2 class="section-title">ABOUT ALB</h2>
+    <div class="intro">
+      <strong>アローリーグ野球（ALB）</strong><br>
+      2016年に設立された、兵庫県を舞台とする4球団制のプロ野球リーグ。<br>
+      それぞれ異なる理念と個性を持つ4球団が、リーグの頂点を目指して戦う。
+    </div>
+  </section>
+
+  <section id="teams">
+    <h2 class="section-title">OUR TEAMS</h2>
+    <div class="teams">
+
+      <article class="team" style="--team-color:#c69b32">
+        <div class="abbr">IB / ITAMI</div>
+        <h3>伊丹ブリュワーズ</h3>
+        <p>奇策・守備・投手王国。<br>相手が気づいた時には、勝負は決まっている。</p>
+      </article>
+
+      <article class="team" style="--team-color:#2479b9">
+        <div class="abbr">NM / NISHINOMIYA</div>
+        <h3>西宮マリナーズ</h3>
+        <p>走って、揺さぶって、勝つ。<br>機動力を武器に試合を動かす。</p>
+      </article>
+
+      <article class="team" style="--team-color:#65439a">
+        <div class="abbr">TN / TAKARAZUKA</div>
+        <h3>宝塚ノーブルズ</h3>
+        <p>気品と華やかさをまとい、スターたちが勝利を目指す。</p>
+      </article>
+
+      <article class="team" style="--team-color:#c93232">
+        <div class="abbr">KF / KOBE</div>
+        <h3>神戸フォーリナーズ</h3>
+        <p>苦しみも高い壁もかっ飛ばす。<br>圧倒的なパワーで道を切り開く。</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="information">
+    <h2 class="section-title">LEAGUE INFORMATION</h2>
+    <div class="info">
+      <strong>リーグ設立：</strong>2016年<br>
+      <strong>参加球団：</strong>4球団<br>
+      <strong>2026年：</strong>ALB設立10周年
+    </div>
+  </section>
+</main>
+
+<footer>
+  ARROW LEAGUE BASEBALL<br>
+  ALB OFFICIAL WEBSITE
+</footer>
+
+</body>
+</html>
